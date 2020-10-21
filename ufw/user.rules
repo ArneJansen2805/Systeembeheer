@@ -26,6 +26,12 @@
 ### tuple ### allow udp 123 0.0.0.0/0 any 0.0.0.0/0 in
 -A ufw-user-input -p udp --dport 123 -j ACCEPT
 
+### tuple ### allow tcp 80 0.0.0.0/0 any 0.0.0.0/0 Apache - in
+-A ufw-user-input -p tcp --dport 80 -j ACCEPT -m comment --comment 'dapp_Apache'
+
+### tuple ### allow tcp 22 0.0.0.0/0 any 0.0.0.0/0 OpenSSH - in
+-A ufw-user-input -p tcp --dport 22 -j ACCEPT -m comment --comment 'dapp_OpenSSH'
+
 ### END RULES ###
 
 ### LOGGING ###
