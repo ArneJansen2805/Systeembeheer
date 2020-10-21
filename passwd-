@@ -28,4 +28,5 @@ uuidd:x:108:115::/run/uuidd:/usr/sbin/nologin
 tcpdump:x:109:116::/nonexistent:/usr/sbin/nologin
 systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 check:x:1000:1000:,,,:/home/check:/bin/bash
-mystery1_2014:x:1001:1001::/home/mystery1_2014:/bin/bash
+mystery1_2014:x:1001:1001:,,,:/home/mystery1_2014:/bin/bash
+ntp:x:110:119::/nonexistent:/usr/sbin/nologin
