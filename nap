@@ -1,0 +1,17 @@
+● snapd.service - Snap Daemon
+     Loaded: loaded (/lib/systemd/system/snapd.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Fri 2020-11-13 16:42:43 CET; 8s ago
+TriggeredBy: [0;1;32m●[0m snapd.socket
+    Process: 46856 ExecStart=/usr/lib/snapd/snapd [0;1;31m(code=exited, status=42)[0m
+   Main PID: 46856 (code=exited, status=42)
+
+nov 13 16:42:38 arne-jansen snapd[46856]: AppArmor status: apparmor is enabled and all features are available
+nov 13 16:42:38 arne-jansen snapd[46856]: daemon.go:343: started snapd/2.47.1+20.04 (series 16; classic) ubuntu/20.04 (amd64) linux/5.4.55-1-pve.
+nov 13 16:42:38 arne-jansen snapd[46856]: main.go:129: system does not fully support snapd: cannot mount squashfs image using "squashfs": mount: /tmp/sanity-mountpoint-373945419: mount failed: Operation not permitted.
+nov 13 16:42:38 arne-jansen snapd[46856]: daemon.go:436: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+nov 13 16:42:38 arne-jansen snapd[46856]: helpers.go:105: error trying to compare the snap system key: system-key missing on disk
+nov 13 16:42:38 arne-jansen systemd[1]: Started Snap Daemon.
+nov 13 16:42:43 arne-jansen snapd[46856]: daemon.go:542: gracefully waiting for running hooks
+nov 13 16:42:43 arne-jansen snapd[46856]: daemon.go:544: done waiting for running hooks
+nov 13 16:42:43 arne-jansen snapd[46856]: daemon stop requested to wait for socket activation
+nov 13 16:42:43 arne-jansen systemd[1]: snapd.service: Succeeded.

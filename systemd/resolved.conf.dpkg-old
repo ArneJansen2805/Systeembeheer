@@ -12,13 +12,13 @@
 # See resolved.conf(5) for details
 
 [Resolve]
-#DNS=
+DNS=8.8.8.8
 #FallbackDNS=
 #Domains=
 #LLMNR=no
 #MulticastDNS=no
 #DNSSEC=no
 #DNSOverTLS=no
-#Cache=no-negative
-#DNSStubListener=yes
+#Cache=yes
+DNSStubListener=no
 #ReadEtcHosts=yes
