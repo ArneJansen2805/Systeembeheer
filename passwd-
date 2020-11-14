@@ -32,4 +32,6 @@ mystery1_2014:x:1001:1001:,,,:/home/mystery1_2014:/bin/bash
 ntp:x:110:119::/nonexistent:/usr/sbin/nologin
 ftp:x:111:120:ftp daemon,,,:/srv/ftp:/usr/sbin/nologin
 mysql:x:112:121:MySQL Server,,,:/nonexistent:/bin/false
-pdns:x:113:122::/var/spool/powerdns:/bin/false
+pdns:x:113:122:PowerDNS,,,:/var/spool/powerdns:/bin/false
+dovecot:x:114:123:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
+dovenull:x:115:124::/nonexistent:/usr/sbin/nologin
