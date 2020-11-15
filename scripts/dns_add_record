@@ -1,0 +1,12 @@
+#!/bin/sh
+
+TFLAG="$1"
+echo $TFLAG
+
+if [ $TFLAG = "-t" ]; 
+then
+	echo test
+
+else
+	echo "pdnsutil add-record $3 $1 A 3600 $2" 
+fi
