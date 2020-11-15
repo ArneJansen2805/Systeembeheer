@@ -7,6 +7,7 @@ APACHEROOT=/etc/apache2
 LOGROOT=/var/log/apache2/vhostlogs/$SUBDOMAIN/error.log
 VHOSTFILE=$APACHEROOT/sites-available/$SUBDOMAIN
 mkdir $DOCROOTS$SUBDOMAIN
+mkdir /var/log/apache2/vhostlogs/$SUBDOMAIN
 touch $DOCROOTS$SUBDOMAIN/index.html
 echo 'welcome '$SUBDOMAIN > $DOCROOTS$SUBDOMAIN/index.html
 cp $APACHEROOT/template $VHOSTFILE
@@ -16,3 +17,6 @@ EHOST="\/var\/www\/html\/$SUBDOMAIN"
 sed -i "s/^ServerName/ServerName $SUBDOMAIN.arne-jansen.sb.uclllabs.be/g" $VHOSTFILE
 sed -i "s/^DocumentRoot/DocumentRoot $EHOST/g" $VHOSTFILE
 sed -i "s/^ErrorLog/ErrorLog $ELOG/g" $VHOSTFILE
+mv $VHOSTFILE "$VHOSTFILE.conf"
+#a2ensite "$VHOSTFILE.conf"
+#systemctl reload apache2
