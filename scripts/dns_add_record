@@ -11,11 +11,13 @@ then
 		break
 		;;
 	CNAME)
-		echo "See you again!"
+		DOMAIN=$(echo $4 | cut --complement -d"." -f1)
+		echo "pdnsutil add-record $DOMAIN $3 $2 3600 $4"
 		break
 		;;
 	MX)
-		echo "Sorry, I don't understand"
+		echo "pdnsutil add-record $5 $3.$5 A 3600 $4"
+		echo "pdnsutil add-record $5 $3 $2 3600 \"1 $5\""
 		break
 		;;
 
