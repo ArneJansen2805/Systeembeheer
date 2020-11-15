@@ -3,6 +3,13 @@
 
 SUBDOMAIN=$(echo $1 | cut -d"." -f1)
 DOCROOTS=/var/www/html/
+APACHEROOT=/etc/apache2
+LOGROOT=/var/log/apache2/vhostlogs/$SUBDOMAIN/error.log
+VHOSTFILE=$APACHEROOT/sites-available/$SUBDOMAIN
 mkdir $DOCROOTS$SUBDOMAIN
 touch $DOCROOTS$SUBDOMAIN/index.html
 echo 'welcome '$SUBDOMAIN > $DOCROOTS$SUBDOMAIN/index.html
+cp $APACHEROOT/template $VHOSTFILE
+sed 's/^ServerName*/ServerName '$SUBDOMAIN'.arne-jansen.sb.uclllabs.be/g' $VHOSTFILE
+sed 's/^DocumentRoot=.*/DocumentRoot '$DOCROOTS$SUBDOMAIN '/g' $VHOSTFILE
+sed 's/^ErrorLog=.*/ErrorLog '$LOGROOT'/g' $VHOSTFILE
