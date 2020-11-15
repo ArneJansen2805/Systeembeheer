@@ -7,22 +7,26 @@ if [ $TFLAG = "-t" ];
 then
 	case $2 in
 	A)
-		echo "pdnsutil add-record $5 $3 $2 3600 $4"
+		echo "making $2 record in zone $5 with name $3 and ip $4"
+		pdnsutil add-record $5 $3 $2 3600 $4
 		break
 		;;
 	CNAME)
 		DOMAIN=$(echo $4 | cut --complement -d"." -f1)
-		echo "pdnsutil add-record $DOMAIN $3 $2 3600 $4"
+		echo "making $2 record in zone $DOMAIN with name $3 pointing to $4"
+		pdnsutil add-record $DOMAIN $3 $2 3600 $4
 		break
 		;;
 	MX)
-		echo "pdnsutil add-record $5 $3.$5 A 3600 $4"
-		echo "pdnsutil add-record $5 $3 $2 3600 \"1 $5\""
+		echo "making $2 record in zone $5 with name $3 pointing to $4"
+		echo "Also making an A record in zone $5 with name $3 and ip $4"
+		pdnsutil add-record $5 $3.$5 A 3600 $4
+		pdnsutil add-record $5 $3 $2 3600 "1 $5"
 		break
 		;;
 
   esac
 
 else
-	echo "pdnsutil add-record $3 $1 A 3600 $2" 
+	pdnsutil add-record $3 $1 A 3600 $2
 fi
