@@ -1,3 +1,5 @@
 mrt/
 incron.d/etc.conf
 backuptest.*
+apache2/sites-enabled/
+apache2/sites-available/
