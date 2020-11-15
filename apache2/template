@@ -1,8 +1,8 @@
 <VirtualHost *:80>
 
-	ServerName 
-	DocumentRoot 
-	ErrorLog	
+ServerName 
+DocumentRoot 
+ErrorLog	
 	
 	ServerAdmin webmaster@localhost
 
