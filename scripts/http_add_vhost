@@ -17,7 +17,7 @@ EHOST="\/var\/www\/html\/$SUBDOMAIN"
 sed -i "s/^ServerName/ServerName $SUBDOMAIN.arne-jansen.sb.uclllabs.be/g" $VHOSTFILE
 sed -i "s/^DocumentRoot/DocumentRoot $EHOST/g" $VHOSTFILE
 sed -i "s/^ErrorLog/ErrorLog $ELOG/g" $VHOSTFILE
-#mv $VHOSTFILE "$VHOSTFILE.conf"
+mv $VHOSTFILE "$VHOSTFILE.conf"
 a2ensite $SUBDOMAIN
 #add DNS entry pdnsutil add-record arne-jansen.sb.uclllabs.be $SUBDOMAIN A 3600 193.191.177.135
 #  pdnsutil add-record arne-jansen.sb.uclllabs.be $SUBDOMAIN AAAA 3600 2001:6a8:2880:a077::87
