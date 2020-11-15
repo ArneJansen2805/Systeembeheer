@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+SUBDOMAIN=$(echo $1 | cut -d"." -f1)
+DOCROOTS=/var/www/html/
+mkdir $DOCROOTS$SUBDOMAIN
+
+
