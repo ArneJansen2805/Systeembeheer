@@ -1,13 +1,12 @@
 <VirtualHost *:80>
 
-	ServerName www1.arne-jansen.sb.uclllabs.be
-
+	ServerName 
+	DocumentRoot 
+	ErrorLog	
+	
 	ServerAdmin webmaster@localhost
-	DocumentRoot /var/www/html/www1
 
 
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 </VirtualHost>
 
