@@ -4,5 +4,5 @@
 SUBDOMAIN=$(echo $1 | cut -d"." -f1)
 DOCROOTS=/var/www/html/
 mkdir $DOCROOTS$SUBDOMAIN
-
-
+touch $DOCROOTS$SUBDOMAIN/index.html
+echo 'welcome '$SUBDOMAIN > $DOCROOTS$SUBDOMAIN/index.html
