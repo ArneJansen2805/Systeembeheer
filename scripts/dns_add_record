@@ -9,12 +9,14 @@ then
 	A)
 		echo "making $2 record in zone $5 with name $3 and ip $4"
 		pdnsutil add-record $5 $3 $2 3600 $4
+		pdnsutil increase-serial $5
 		break
 		;;
 	CNAME)
 		DOMAIN=$(echo $4 | cut --complement -d"." -f1)
 		echo "making $2 record in zone $DOMAIN with name $3 pointing to $4"
 		pdnsutil add-record $DOMAIN $3 $2 3600 $4
+		pdnsutil increase-serial $3
 		break
 		;;
 	MX)
@@ -22,11 +24,13 @@ then
 		echo "Also making an A record in zone $5 with name $3 and ip $4"
 		pdnsutil add-record $5 $3.$5 A 3600 $4
 		pdnsutil add-record $5 $3 $2 3600 "1 $5"
+		pdnsutil increase-serial $5
 		break
 		;;
 
-  esac
+  	esac
 
 else
 	pdnsutil add-record $3 $1 A 3600 $2
+	pdnsutil increase-serial $3
 fi
