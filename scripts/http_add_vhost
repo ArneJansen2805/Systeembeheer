@@ -21,4 +21,5 @@ mv $VHOSTFILE "$VHOSTFILE.conf"
 a2ensite $SUBDOMAIN
 pdnsutil add-record arne-jansen.sb.uclllabs.be $SUBDOMAIN A 3600 193.191.177.135
 pdnsutil add-record arne-jansen.sb.uclllabs.be $SUBDOMAIN AAAA 3600 2001:6a8:2880:a077::87
+pdnsutil increase-serial arne-jansen.sb.uclllabs.be
 systemctl reload apache2
