@@ -35,3 +35,5 @@ smtpd_tls_security_level = may
 smtp_tls_note_starttls_offer = yes
 smtpd_tls_loglevel = 1
 smtpd_tls_received_header = yes
+smtpd_tls_cert_file = /etc/letsencrypt/live/mx.arne-jansen.sb.uclllabs.be/fullchain.pem
+smtpd_tls_key_file = /etc/letsencrypt/live/mx.arne-jansen.sb.uclllabs.be/privkey.pem
