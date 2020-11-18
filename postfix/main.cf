@@ -11,12 +11,15 @@ append_dot_mydomain = no
 
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = $myhostname, localhost.$mydomain, localhost,slimme-rik.sb.uclllabs.be
-relayhost = 
-mynetworks = 127.0.0.0/8
-inet_interfaces = loopback-only
+mydestination = root@arne-jansen.sb.uclllabs.be,arne-jansen.localdomain, localhost.localdomain, localhost, arne-jansen.sb.uclllabs.be, $mydomain
+relayhost =
+inet_interfaces = all
 recipient_delimiter = +
 
 compatibility_level = 2
 
 inet_protocols = all
+myorigin = /etc/mailname
+mailbox_size_limit = 0
+home_mailbox = /var/vmail/
+
