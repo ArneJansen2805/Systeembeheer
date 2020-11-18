@@ -4,7 +4,7 @@ iptables -A INPUT -s 192.168.255.0/24 -j ACCEPT
 iptables -A INPUT -s 172.16.0.0/16 -j ACCEPT
 iptables -A INPUT -s 193.191.177.6 -j ACCEPT
 iptables -A INPUT -s 193.191.177.1 -j ACCEPT
-iptables -A INPUT -p tcp  --match multiport --dports 25,80,443,587,993,22345 -j ACCEPT
+iptables -A INPUT -p tcp  --match multiport --dports 25,53,80,443,587,993,22345 -j ACCEPT
 iptables -A INPUT -p udp  --match multiport --dports 53 -j ACCEPT
 iptables -A INPUT -p icmp --icmp-type 0 -j ACCEPT
 iptables -A INPUT -p tcp --tcp-flags SYN,ACK,FIN,RST SYN -j ACCEPT
