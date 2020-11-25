@@ -1,6 +1,14 @@
-iptables -A INPUT -i lo -j ACCEPT
-iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
-iptables -A INPUT -s 192.168.255.0/24 -j ACCEPT
+#!/bin/sh
+
+TFLAG="$1"
+echo $TFLAG
+
+
+        case $TFLAG in
+       start)
+		iptables -A INPUT -i lo -j ACCEPT
+		iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+		iptables -A INPUT -s 192.168.255.0/24 -j ACCEPT
 iptables -A INPUT -s 172.16.0.0/16 -j ACCEPT
 iptables -A INPUT -s 193.191.177.6 -j ACCEPT
 iptables -A INPUT -s 193.191.177.1 -j ACCEPT
@@ -8,9 +16,10 @@ iptables -A INPUT -p tcp  --match multiport --dports 25,53,80,443,587,993,22345 
 iptables -A INPUT -p udp  --match multiport --dports 53 -j ACCEPT
 iptables -A INPUT -p icmp --icmp-type 0 -j ACCEPT
 iptables -A INPUT -p tcp --tcp-flags SYN,ACK,FIN,RST SYN -j ACCEPT
+iptables -A INPUT -p tcp -m tcp --tcp-flags FIN,SYN,RST,ACK SYN -j ACCEPT
+iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
-
 
 ip6tables -A INPUT -i lo -j ACCEPT
 ip6tables -A INPUT -p tcp  --match multiport --dports 25,53,80,443,587,993,22345 -j ACCEPT
@@ -19,5 +28,28 @@ ip6tables -A INPUT -s 2001:6a8:2880:a021::1 -j ACCEPT
 ip6tables -A INPUT -s 2001:6a8:2880:a021::6 -j ACCEPT
 ip6tables -A INPUT -s 2a02:1811:c10:7000:2905:aa18:afa1:1f66 -j ACCEPT
 ip6tables -A INPUT -p tcp --tcp-flags SYN,ACK,FIN,RST SYN -j ACCEPT
+ip6tables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 ip6tables -P FORWARD DROP
 ip6tables -P INPUT DROP
+iptables-save > /etc/init.d/rules.v4
+ip6tables-save > /etc/init.d/rules.v6
+                break
+                ;;
+        stop)
+iptables -P INPUT ACCEPT
+ip6tables -P INPUT ACCEPT
+iptables -F INPUT
+ip6tables -F INPUT
+                break
+                ;;
+        restart)
+
+                break
+                ;;
+
+        esac
+
+
+
+
+
