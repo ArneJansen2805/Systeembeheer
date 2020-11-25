@@ -2,6 +2,7 @@
 
 
 SUBDOMAIN=$(echo $1 | cut -d"." -f1)
+echo 'preparing vhost for' $SUBDOMAIN
 DOCROOTS=/var/www/html/
 APACHEROOT=/etc/apache2
 LOGROOT=/var/log/apache2/vhostlogs/$SUBDOMAIN/error.log
