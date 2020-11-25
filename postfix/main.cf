@@ -11,13 +11,14 @@ append_dot_mydomain = no
 
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = root@arne-jansen.sb.uclllabs.be,arne-jansen.localdomain, localhost.localdomain, localhost, arne-jansen.sb.uclllabs.be, $mydomain
+mydestination = arne-jansen.localdomain, localhost.localdomain, localhost
 relayhost =
 inet_interfaces = all
 recipient_delimiter = +
 
 compatibility_level = 2
 
+myhostname = mx.arne-jansen.sb.uclllabs.be
 inet_protocols = all
 myorigin = /etc/mailname
 mailbox_size_limit = 0
@@ -37,5 +38,6 @@ smtpd_tls_loglevel = 1
 smtpd_tls_received_header = yes
 smtpd_tls_cert_file = /etc/letsencrypt/live/mx.arne-jansen.sb.uclllabs.be/fullchain.pem
 smtpd_tls_key_file = /etc/letsencrypt/live/mx.arne-jansen.sb.uclllabs.be/privkey.pem
+
 virtual_transport = dovecot
 virtual_mailbox_domains = arne-jansen.sb.uclllabs.be
