@@ -64,3 +64,4 @@ mysql:x:121:
 pdns:x:122:
 dovecot:x:123:
 dovenull:x:124:
+vmail:x:1002:

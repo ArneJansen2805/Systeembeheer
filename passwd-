@@ -34,4 +34,5 @@ ftp:x:111:120:ftp daemon,,,:/srv/ftp:/usr/sbin/nologin
 mysql:x:112:121:MySQL Server,,,:/nonexistent:/bin/false
 pdns:x:113:122:PowerDNS,,,:/var/spool/powerdns:/bin/false
 dovecot:x:114:123:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
-dovenull:x:115:124::/nonexistent:/usr/sbin/nologin
+dovenull:x:115:124:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
+vmail:x:1002:1002::/home/vmail:/bin/bash
