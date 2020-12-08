@@ -1,0 +1,811 @@
+[33mcommit ead94d64e4e52f37543f4bd6098570f37a1ca5be[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 17:41:27 2020 +0100
+
+    commited all changes
+
+[33mcommit 1abf7aff19e75c0b9174c13431ec82197e5c1434[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 17:01:49 2020 +0100
+
+    commited all changes
+
+[33mcommit b44acebce3a8e427e82726620d3787453d543a91[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 16:48:04 2020 +0100
+
+    commited all changes
+
+[33mcommit dd777e322a22d7ea48c79fbee9d84a8179e6ff30[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 16:13:08 2020 +0100
+
+    commited all changes
+
+[33mcommit 51544197d5c7e78d0a29b402697eb7dab76d5e3b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 15:34:20 2020 +0100
+
+    commited all changes
+
+[33mcommit c90471a90f3915ac453c15f4d80edb57f5668e40[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 15:14:04 2020 +0100
+
+    commited all changes
+
+[33mcommit 3920a12746d6948dfd02d32bd02ba54fb3cf902a[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 14:56:00 2020 +0100
+
+    commited all changes
+
+[33mcommit 470c9291557894fc994c076dfafb23ec9bf08e25[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 14:48:31 2020 +0100
+
+    commited all changes
+
+[33mcommit 1005f235db68e8f39a6f0cb132b6d604c660124c[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 14:34:56 2020 +0100
+
+    commited all changes
+
+[33mcommit 3962e960ceaf4c7af77d0272591c31560bb67c79[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 14:31:18 2020 +0100
+
+    final changes?
+
+[33mcommit d217ca0887cfc2b65061225e1dd8ffd5cf23b18f[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 13:25:02 2020 +0100
+
+    dns subzone script edit
+
+[33mcommit 86066faa44d0c66f5687fead417416eff6ae2027[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 13:06:41 2020 +0100
+
+    axfr ips
+
+[33mcommit 83f709fc65c0223b88f4b103b5ffb657afc2aeb6[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 25 12:54:35 2020 +0100
+
+    commited all changes
+
+[33mcommit 898224a17d8945b8078b466bf9a9569537f3df0a[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 17:31:58 2020 +0100
+
+    commited all changes
+
+[33mcommit 89310a8c0f26f1aa81ffc4df5963364fc7a61d15[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 17:31:45 2020 +0100
+
+    main.cf postfix
+
+[33mcommit d7f9ad98ae66958c47537239ca38910ebe17d1d4[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 17:22:15 2020 +0100
+
+    firewall changes
+
+[33mcommit 52d394d2b0d1eca714336d4d9c49a2b7a5487d92[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 16:25:40 2020 +0100
+
+    commited all changes
+
+[33mcommit 810f8654a19bbeef40fdc3e3fc0e4b9d06ce5f41[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 16:25:25 2020 +0100
+
+    commited all changes
+
+[33mcommit 7710208eb695e2995b3d0592b2164b16e377a38a[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:49:22 2020 +0100
+
+    commited all changes
+
+[33mcommit 1f632d64a40107c5c61ddd5f0dc6f1a73beff418[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:48:05 2020 +0100
+
+    commited all changes
+
+[33mcommit 5eb43e89ad9ea548157c80d3e1a18d1b066400d2[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:47:04 2020 +0100
+
+    ssl smtp
+
+[33mcommit 0d1e75dad325cc5378e0743c557e33e27f5c0618[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:46:07 2020 +0100
+
+    cert for mail server
+
+[33mcommit 70709281ecf9792263096bb61a236d99d8d49a39[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:45:46 2020 +0100
+
+    cf file for postfix
+
+[33mcommit 579c89e323e71531d7381992d361096a10f971fb[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:45:32 2020 +0100
+
+    dovecot
+
+[33mcommit ec357844c8bcad0c6f1393c2367610594bd88ada[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:03:45 2020 +0100
+
+    vhosts
+
+[33mcommit 458c841f697c775c9b5bac454f9ef57618007b96[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:03:30 2020 +0100
+
+    set HSTS header
+
+[33mcommit 51bbfdfd6e07ebcc749d48de616fd6701b31850b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 15:02:53 2020 +0100
+
+    .
+
+[33mcommit 3bfbbd2fdf0e7cd5c99bc004a73cf5405cb67b66[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 14:55:04 2020 +0100
+
+    ssl certs
+
+[33mcommit 07deda6ae02470ef950f4970131c2c0bcac87bbe[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 14:54:58 2020 +0100
+
+    postfix changes to main.cf
+
+[33mcommit 4a8eaee07f39664f73369fb547de6a28a9e74d6e[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 13:33:54 2020 +0100
+
+    small changes dns add record
+
+[33mcommit 1ce38f0bc4f2e2c9479c71578c4c90d9c369c17f[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Nov 18 11:55:52 2020 +0100
+
+    snoopy
+
+[33mcommit 2fd7bf830739f51d46cecb1fb5dd94852b7fdf1b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 14:35:13 2020 +0100
+
+    commited all changes
+
+[33mcommit 0bcc27c05b6a816e141ecbf728a0b5b73e507b67[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 14:35:02 2020 +0100
+
+    commited all changes
+
+[33mcommit f5c1265e46300b7892abde9fb7388c77e4719bbe[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 14:07:29 2020 +0100
+
+    letsencrpyt
+
+[33mcommit 7514dbfe8a24640db8f354846c3bc05bb97ffafc[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 14:07:15 2020 +0100
+
+    pdns changes
+
+[33mcommit 68e3d560f10fc0930cce2bb0500782962213e725[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 13:35:42 2020 +0100
+
+    certbot
+
+[33mcommit 13cf769b04eecf952ca6cf9b5e141c8c6fdf8bb8[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 13:35:28 2020 +0100
+
+    command to proof http script works
+
+[33mcommit dcff3ad7c7157f1711e2508439b545cf25f70522[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 13:34:22 2020 +0100
+
+    increase serial
+
+[33mcommit 731bf08a7f37854a3c4c5e2e2564b65ef9be9436[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 13:34:02 2020 +0100
+
+    increase serial after record change
+
+[33mcommit 807294e1959fb2f14b5416df1508f59402087636[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 13:17:39 2020 +0100
+
+    I CANNOT BELIEVE THIS TYPO
+
+[33mcommit 700df485b796e6e470516f9249e0c8ea118e6874[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 12:59:51 2020 +0100
+
+    nmap
+
+[33mcommit 01e2b8602996b54194206084f5ca727402c167a7[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Mon Nov 16 12:59:19 2020 +0100
+
+    certbot install
+
+[33mcommit 6406444210f13cdce7aeb269e1bb56cbfc7fbf0b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 23:26:00 2020 +0100
+
+    firewall txt doc
+
+[33mcommit 7e664adc6b8beec20a1cc37b5fa82aa47f61403c[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 21:39:56 2020 +0100
+
+    enable DNS changes in http script
+
+[33mcommit 462818dd819ea1cc2b1a309ed1846722afefa71d[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 21:39:46 2020 +0100
+
+    ignore sites made by http script
+
+[33mcommit 99a07477e12d2539526fc54833432af12fc9f7b9[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 21:39:38 2020 +0100
+
+    allow check to run http script
+
+[33mcommit a1e091b2b7dcfdef388709a2a5041594c885877c[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 21:30:50 2020 +0100
+
+    disable stub listener for pdns
+
+[33mcommit 33f06e0b5c4558edc1041840a905c55f3e23a618[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 18:56:07 2020 +0100
+
+    trying something with dns
+
+[33mcommit 6a2611cbbc5e39cd6d9dda29fbd47913363bcdb6[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 18:40:43 2020 +0100
+
+    almost done with http add scrip, only dns
+
+[33mcommit 1e51c76172d70f83c1fe7f4ef03fdda428a4e906[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 18:30:50 2020 +0100
+
+    http add vhost bug with a2ensite
+
+[33mcommit 216206c2c47060736862a65cac0cb8a746489593[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 18:30:20 2020 +0100
+
+    record script finalized
+
+[33mcommit 6484a1092faf2f057a3e553292a12e482a10bf75[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 18:08:43 2020 +0100
+
+    add record expanded to cname
+
+[33mcommit a21c3f593b69b6a1b270c15bd6d99e1b2807e701[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 17:54:35 2020 +0100
+
+    dns_add_record with tflag for A
+
+[33mcommit 4755bf02139272d22b8821d0fecf93ab8bc98870[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 17:51:29 2020 +0100
+
+    partial script dns add record
+
+[33mcommit d2463ecb1794334ffbba86538feaf5caf2214bfa[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 16:36:16 2020 +0100
+
+    rename of script
+
+[33mcommit 736289771583910493c8f62a021e841dd7dda6b6[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 16:35:58 2020 +0100
+
+    dns add zone script, rename
+
+[33mcommit f29f73fe983bab35b4b97eaa5aba2246e19c84ce[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 16:05:16 2020 +0100
+
+    further script changes
+
+[33mcommit 7dad807a79e1f42354aa901cce4894a0e3ed0db2[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 15:44:54 2020 +0100
+
+    please work script
+
+[33mcommit 1b8ee77d87dc6aab721f32451274e22d87b7d2d1[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 15:26:59 2020 +0100
+
+    template finalized
+
+[33mcommit 8def547aac0d0e6dfc2952a0b25443296e29347c[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 15:26:23 2020 +0100
+
+    template file for vhost
+
+[33mcommit f86a1bbf8d95a1fc92d96f8875683312652d113f[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 15:25:45 2020 +0100
+
+    http vhost added vhost config
+
+[33mcommit 5b2f69e07e154a09a4467fb7e97cd5244071b89c[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 15:03:33 2020 +0100
+
+    adjusted http add vhost
+
+[33mcommit c230c54c0373756797469e734df8c9bd85147d04[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sun Nov 15 14:56:00 2020 +0100
+
+    script add vhost
+
+[33mcommit 550bd007b37bc0e9046491606d3d0ef0c62c8457[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 22:42:20 2020 +0100
+
+    dovecot instasll
+
+[33mcommit 79e2aeb996d7603affff5783216b128706140507[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 22:41:54 2020 +0100
+
+    postfix changes
+
+[33mcommit 51050e39f395d715644b375afec909ea7e8f2a3b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 22:09:48 2020 +0100
+
+    accept mail from slimmerik domain
+
+[33mcommit 40941e8e150045f8fe701b0c36ccaff1ee2aa1cb[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 21:20:35 2020 +0100
+
+    pdns slave config
+
+[33mcommit 085254d588510186c4c71235b1ca72d48d406568[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 21:20:26 2020 +0100
+
+    netplan change for more dns servers
+
+[33mcommit e910832057d560fb17ab54233bcc52f968fd3503[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 18:37:58 2020 +0100
+
+    netplan change
+
+[33mcommit 6594439b2451a3075ac84f3cc52c5b1c66a1cefc[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 18:35:58 2020 +0100
+
+    arp script
+
+[33mcommit 3c7cb49e66345e62669d4bd5d18f97195e266478[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 01:40:53 2020 +0100
+
+    extra scriptfile to ensure arp
+
+[33mcommit af8393941dae45e12fd66e933a1b9b447f986681[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 01:17:30 2020 +0100
+
+    broadcast adr makes for bad gateway
+
+[33mcommit 0b1310dfc4d080d638b3302afa09f9e8dbc2dcb6[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 01:11:15 2020 +0100
+
+    netplan config for ipv6
+
+[33mcommit 6a984a85cf4c04ad04724dea5d06c6071239ca09[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 01:02:27 2020 +0100
+
+    netplan ipv6 config
+
+[33mcommit 7d6ce919166ed98c651ea94e218de23abf62dc40[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 00:25:13 2020 +0100
+
+    db reachable from outside:
+
+[33mcommit 301d012bfad62b3a4f2aa516c7b501b359d75737[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 00:21:30 2020 +0100
+
+    Revert "allowed db access remote"
+    
+    This reverts commit 839f1f62809b4effaab313cd69cbab0cfe16db23.
+
+[33mcommit 839f1f62809b4effaab313cd69cbab0cfe16db23[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Sat Nov 14 00:20:39 2020 +0100
+
+    allowed db access remote
+
+[33mcommit 4f6e7d600725b8f7062b4274e8dffde908923c35[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 18:31:44 2020 +0100
+
+    postfix
+
+[33mcommit f9e9b27f326ff287731701997491bebe65bf1252[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 18:31:10 2020 +0100
+
+    added php utilities for mysql
+
+[33mcommit 54af9b306850f283ffe30e3d9f0de153d8ac1aa8[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 17:56:22 2020 +0100
+
+    certbot
+
+[33mcommit f3a1fc9a01301603ed573770efe759007f3d82f3[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:48:07 2020 +0100
+
+     e
+
+[33mcommit d7148ffee4480d40b7d8cb101b24cd0e81b352cd[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:46:12 2020 +0100
+
+    snapd
+
+[33mcommit ea95a096a756df0401d18412d45c0660e63a1d47[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:45:12 2020 +0100
+
+    upgrades
+
+[33mcommit c4e9caa14b34cdb9ee129baadac15a72c80ddbe3[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:41:20 2020 +0100
+
+    certbot
+
+[33mcommit 1ceeeba2f0a6db981152bc8c44755ced8de972c1[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:38:42 2020 +0100
+
+    .ht access enabled
+
+[33mcommit 0832db15ba428fd03882e4307ba3fde908f60d38[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:20:34 2020 +0100
+
+    php
+
+[33mcommit 5e35f68eb2987c1434bbd77e964943a7e8f36ef3[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 16:13:20 2020 +0100
+
+    trying to get a script working to get scripts to work
+
+[33mcommit ef7e78803b6acd8c7db79aa15b495a2c8d36795f[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 14:40:55 2020 +0100
+
+    edit script
+
+[33mcommit 1fca9e5f436298b62612045533b174a7fe0aa72a[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 14:18:08 2020 +0100
+
+    add zone script
+
+[33mcommit 03e1d84711f2a22e53809585297244c500b08f88[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 14:01:30 2020 +0100
+
+    allow transfers from ipv4
+
+[33mcommit b908ea0d1b43261617f4f918129ca80cb577d2d1[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 13:46:43 2020 +0100
+
+    ntp server second
+
+[33mcommit 579e5c4351469c606f9148502cdb84a5d9f68538[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 13:34:36 2020 +0100
+
+    pdns allow zonetransfer to slaves
+
+[33mcommit 7706a90fb0599b572327e41f2ad9334ac43e4012[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 13:02:20 2020 +0100
+
+    allowed specific access for ntp
+
+[33mcommit c3f4b52ce0fe4dced38c6a4a5bc578cd7cc18383[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 12:50:02 2020 +0100
+
+    timeserver restrict lines
+
+[33mcommit d47df09a455a0b29274ee3333cf964db8759488d[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Fri Nov 13 12:07:49 2020 +0100
+
+    ssl certs
+
+[33mcommit 5de26aee80255f80bb778d03c2031a7927cca3f8[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 18:08:52 2020 +0200
+
+    garbage
+
+[33mcommit db994c02f3d913dca445b67ac3831603cf653a3e[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 18:08:40 2020 +0200
+
+    update to ignore
+
+[33mcommit 7bf1b571791f0edc5c3e3240f9e7759724d08f50[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:47:55 2020 +0200
+
+    www1 http vhost
+
+[33mcommit 0a97a49a5e0494595d20a0bdb212a6999b24d213[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:43:36 2020 +0200
+
+    garbage deletion
+
+[33mcommit ce0d1cd14f15dcf33c612bbe08f527f099cdd115[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:43:25 2020 +0200
+
+    vhost for www1
+
+[33mcommit 5d676d275089984c1a3fc6ecfbe81a560eb99486[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:29:46 2020 +0200
+
+    unattended-upgrades also does updates
+
+[33mcommit 382457c76ef2c2d9b0ffc4f7508ec8bdf14ada55[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:12:27 2020 +0200
+
+    Crontabs for ARP, Backup
+
+[33mcommit e6aa1bc68f149eae1525bda4d44ccd49dee1d9bb[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:06:12 2020 +0200
+
+    ufw disabled
+
+[33mcommit 9a8832fede28a78b112fcffd720bcfbb450ab75b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 17:06:01 2020 +0200
+
+    apache
+
+[33mcommit 5c0e943bc9a9e726fca005adf1fcef78d639f47a[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 16:57:51 2020 +0200
+
+    ufw disable
+
+[33mcommit 9a098c0d6c25fc34554ad4bc025e6be2121620f1[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 15:54:08 2020 +0200
+
+    scripts to update iptables
+
+[33mcommit 825267b2f55e32e4a868c41f6cd3e93323af1f24[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 15:53:41 2020 +0200
+
+    change to fail 2 ban jail
+
+[33mcommit 8e068c4970797aa307be0478844f67fcd857a4f5[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 14:54:03 2020 +0200
+
+    pdns installation with maria db backend
+
+[33mcommit 6545ecb92d0dce4e4b00812e64a9ea96a65f0270[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 14:38:39 2020 +0200
+
+    pdns installation part 1
+
+[33mcommit 23aff9917818033aadb72502a520a5facab52f69[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 13:09:44 2020 +0200
+
+    ufw
+
+[33mcommit 18850dfcbd6f509c274695643b619d35b31c06b5[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 12:24:11 2020 +0200
+
+    firewall rules for ftp
+
+[33mcommit c89f26c3c2f41ee10dc359f152cacf7b92375e01[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 12:21:47 2020 +0200
+
+    ftp server
+
+[33mcommit 1dc0640e84647618c11a6ff29e57e73d681269dc[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 12:19:29 2020 +0200
+
+    ntp
+
+[33mcommit 34eb0cff0905a7950b3a23294f1ac2f8dfbf6254[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 10:10:01 2020 +0000
+
+    ntp and tools install
+
+[33mcommit 856ae7b01061201510c378bbf33cc972b6c6f543[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 10:05:05 2020 +0000
+
+    ftp install
+
+[33mcommit 078c8b641f31baa41842599558b6428581bf94dd[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 10:02:53 2020 +0000
+
+    fixed untracked files
+
+[33mcommit c084ba6d3871b3f0b532b50ad179cd2bb6148129[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 10:02:32 2020 +0000
+
+    fail2banjail
+
+[33mcommit b08d32ac0f857848c872102a40d2629fd2dcc3fc[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 10:01:28 2020 +0000
+
+    ignore file update
+
+[33mcommit f9f550e1af8bd0e2e22590807081592d9951651a[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 09:53:09 2020 +0000
+
+    fail2ban
+
+[33mcommit 59e5f3d823588def23cc261bfac9e14c045b1a91[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 09:51:28 2020 +0000
+
+    iptables script
+
+[33mcommit f859bd83060c53e717eecea9a854fad9763535ab[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 09:45:55 2020 +0000
+
+    backuptest
+
+[33mcommit 826850a43e86d33ce384739ddeca4339b5e97ab5[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 09:22:11 2020 +0000
+
+    crontab for backup script
+
+[33mcommit c88ae1c280767eb49755c43538152fc729c01b96[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 09:17:13 2020 +0000
+
+    new scripts dir for backup
+
+[33mcommit dfd4d58f497bc56ca7371582b3c9a57056ce6ab6[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Wed Oct 21 09:14:40 2020 +0000
+
+    ignore file update
+
+[33mcommit 30a533eda77bc8d3b42bfd7d74df407fe66fbc0b[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:30:20 2020 +0000
+
+    arpping install
+
+[33mcommit 02884475095c9957a0f6438994f06da31751b026[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:22:57 2020 +0000
+
+    unattended upgrades install
+
+[33mcommit 2d2cd2bf4532708f46dc22d94b7cea73d72d3311[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:18:41 2020 +0000
+
+    sudo privs for check
+
+[33mcommit 5216bc627c5dadc26be80cf8ec4002752667a0f1[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:15:58 2020 +0000
+
+    packages for sudo
+
+[33mcommit c986ee828b1ed7e3602a45483c854ef9204c03f9[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:14:17 2020 +0000
+
+    install incron
+
+[33mcommit 2b65b3d249288953b2a58a980536ce92e34e768c[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:12:02 2020 +0000
+
+    locale generated
+
+[33mcommit 7429bbf275004146f222260686c903fe71b8208d[m
+Author: root <root@arne-jansen.sb.uclllabs.be>
+Date:   Tue Oct 20 21:07:38 2020 +0000
+
+    locale change
+
+[33mcommit 898f6364427a734f973d2de6f8e3c11073f48a24[m
+Author: root <root@arne-jansen.uclllabs.be>
+Date:   Tue Oct 20 20:56:18 2020 +0000
+
+    locale
+
+[33mcommit dd73b4c30f6d59d6273c772500512171d93efc92[m
+Author: root <root@arne-jansen.uclllabs.be>
+Date:   Tue Oct 20 20:54:30 2020 +0000
+
+    disable dns ssh
+
+[33mcommit f980544b080e351712f0cb8aa5720229d78c828f[m
+Author: root <root@arne-jansen.uclllabs.be>
+Date:   Tue Oct 20 20:52:23 2020 +0000
+
+    sudo opgave
+
+[33mcommit 2ec10bbab8eed5ad0d893527504ed5221c7fd836[m
+Author: root <root@arne-jansen.uclllabs.be>
+Date:   Tue Oct 20 20:46:44 2020 +0000
+
+    first commit

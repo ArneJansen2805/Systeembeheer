@@ -1,0 +1,19 @@
+#!/bin/sh
+
+pdnsutil create-zone $1.arne-jansen.sb.uclllabs.be
+pdnsutil clear-zone $1.arne-jansen.sb.uclllabs.be
+pdnsutil add-record $1.arne-jansen.sb.uclllabs.be . SOA 'ns.arne-jansen.sb.uclllabs.be hostmaster.arne-jansen.sb.uclllabs.be 2020111621 1200 120 1209600 720'
+#pdnsutil add-record $1.arne-jansen.sb.uclllabs.be ns NS 3600 ns.arne-jansen.sb.uclllabs.be
+pdnsutil add-record arne-jansen.sb.uclllabs.be $1 NS 3600 ns.arne-jansen.sb.uclllabs
+pdnsutil rectify-zone arne-jansen.sb.uclllabs.be
+pdnsutil add-record $1.arne-jansen.sb.uclllabs.be @ NS ns.arne-jansen.sb.uclllabs.be
+#!/bin/sh
+
+pdnsutil create-zone $1.arne-jansen.sb.uclllabs.be
+pdnsutil clear-zone $1.arne-jansen.sb.uclllabs.be
+pdnsutil add-record $1.arne-jansen.sb.uclllabs.be . SOA 'ns.arne-jansen.sb.uclllabs.be hostmaster.arne-jansen.sb.uclllabs.be 2020111621 1200 120 1209600 720'
+#pdnsutil add-record $1.arne-jansen.sb.uclllabs.be ns NS 3600 ns.arne-jansen.sb.uclllabs.be
+pdnsutil add-record arne-jansen.sb.uclllabs.be $1 NS 3600 ns.arne-jansen.sb.uclllabs
+pdnsutil rectify-zone arne-jansen.sb.uclllabs.be
+pdnsutil add-record $1.arne-jansen.sb.uclllabs.be @ NS ns.arne-jansen.sb.uclllabs.be
+
