@@ -35,4 +35,7 @@ mysql:x:112:121:MySQL Server,,,:/nonexistent:/bin/false
 pdns:x:113:122:PowerDNS,,,:/var/spool/powerdns:/bin/false
 dovecot:x:114:123:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
 dovenull:x:115:124:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
-vmail:x:1002:1002::/home/vmail:/bin/bash
+vmail:x:1002:1002:,,,:/home/vmail:/bin/bash
+freerad:x:116:125::/etc/freeradius:/usr/sbin/nologin
+redis:x:117:126::/var/lib/redis:/usr/sbin/nologin
+ntopng:x:118:127::/var/lib/ntopng:/usr/sbin/nologin
